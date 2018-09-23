@@ -123,7 +123,7 @@ bool BufferCore::warnFrameId(const char* function_name_arg, const std::string& f
   {
     std::stringstream ss;
     ss << "Invalid argument passed to "<< function_name_arg <<" in tf2 frame_ids cannot be empty";
-    CCONSOLE_BRIDGE_logWarn("%s",ss.str().c_str());
+    CONSOLE_BRIDGE_logWarn("%s",ss.str().c_str());
     return true;
   }
 
